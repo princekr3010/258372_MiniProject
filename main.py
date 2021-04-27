@@ -8,7 +8,6 @@ if __name__ == "__main__":
     print("******************************************************************")
     print("\n\n")
     while True:
-
         print("Select from Below Options: ")
         print("1. Enter\n"
               "2. Display\n"
