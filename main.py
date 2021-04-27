@@ -7,7 +7,7 @@ if __name__ == "__main__":
     print("****************** Sfid : 258372**********************************")
     print("******************************************************************")
     print("\n\n")
-    while(True):
+    while True:
 
         print("Select from Below Options: ")
         print("1. Enter\n"

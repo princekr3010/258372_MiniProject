@@ -4,6 +4,7 @@ import xlrd as xlrd
 from xlwt import Workbook
 from xlutils.copy import copy
 
+
 def create():
     if os.path.exists("password.xlsx"):
         pass
@@ -88,10 +89,9 @@ def update():
             flag = 1
             print("Value Updated")
 
-
     if flag == 0:
         enter_permission = input("Data Not exist, Want to enter as new data. Type Yes or No: ")
-        if enter_permission == "YES" or enter_permission == "Yes" or enter_permission == "yes" or enter_permission== "Y" or enter_permission == "y":
+        if enter_permission == "YES" or enter_permission == "Yes" or enter_permission == "yes" or enter_permission == "Y" or enter_permission == "y":
             sheet.write(r, 0, Application)
             sheet.write(r, 1, Username)
             sheet.write(r, 2, Password)
@@ -115,11 +115,10 @@ def search():
             link = "Url"
             print(f"{App : <20}{User : ^20}{Pass : ^20}{link : >20}")
             print(f"{row_value[0] : <20}{row_value[1] : ^20}{row_value[2] : ^20}{row_value[3] : >20}")
-            flag=1
+            flag = 1
             break
 
     if flag == 0:
         enter = input("Data does not exist, Want to save. Type Yes or No: ")
-        if enter == "YES" or enter == "Yes" or enter == "yes" or enter== "Y" or enter == "y":
+        if enter == "YES" or enter == "Yes" or enter == "yes" or enter == "Y" or enter == "y":
             enter_data()
-
