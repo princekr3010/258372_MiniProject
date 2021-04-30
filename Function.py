@@ -16,6 +16,7 @@ def create():
         sheet.write(0, 2, "Password")
         sheet.write(0, 3, "Url")
         book.save('password.xlsx')
+    return 1
 
 
 def enter_data():
@@ -52,6 +53,8 @@ def enter_data():
 
     wb.save('password.xlsx')
 
+    return 1
+
 
 def display_data():
     workbook = xlrd.open_workbook("password.xlsx")
@@ -65,6 +68,8 @@ def display_data():
     for row in range(1, sheet.nrows):
         row_value = sheet.row_values(row)
         print(f"{row_value[0] : <20}{row_value[1] : ^20}{row_value[2] : ^20}{row_value[3] : >20}")
+
+    return 1
 
 
 def update():
@@ -100,6 +105,8 @@ def update():
 
     wb.save('password.xlsx')
 
+    return 1
+
 
 def search():
     Application = input("Enter the name of application : ")
@@ -122,3 +129,5 @@ def search():
         enter = input("Data does not exist, Want to save. Type Yes or No: ")
         if enter == "YES" or enter == "Yes" or enter == "yes" or enter == "Y" or enter == "y":
             enter_data()
+
+    return 1
