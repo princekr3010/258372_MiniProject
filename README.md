@@ -18,8 +18,9 @@
 ### Concepts used: - 
 1. Flile input/output (Used to read and write the exel sheet)
 2. Functions (Created individual function for display, insert, search and update)
-3. Static code analysis.
-4. pytest for testing.
+3. String formatting (Used to print the output in a Formatted method)
+4. Static code analysis.
+5. pytest for testing.
 
 ### Incstruction to Run the code
 1. Make sure python is installed in your system and pip is updated.
@@ -31,3 +32,11 @@
 3. Open command prompt and move the particular directory where code is saved.
 4. Execute  the following command - 'python main.py'
 5. Now you are able tos see the main menu of the application. 
+
+### Output
+![1](https://user-images.githubusercontent.com/68175614/116677545-f7719680-a9c5-11eb-9287-0ffc6e01e5e1.JPG)
+</br>
+</br>
+
+![2](https://user-images.githubusercontent.com/68175614/116677645-13753800-a9c6-11eb-838d-545ba768004a.JPG)
+
