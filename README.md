@@ -1,5 +1,7 @@
 # 258372_MiniProject
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/6532439175a74be3b4c6bdcecd52be1a)](https://www.codacy.com/gh/princekr3010/258372_MiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=princekr3010/258372_MiniProject&amp;utm_campaign=Badge_Grade)
+
 ## Password Manager
 
 ### Description.
