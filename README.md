@@ -27,5 +27,5 @@
      - xlrd ('pip install xlrd')
      - xlutil.copy ('pip install xlutils')
 3. Open command prompt and move the particular directory where code is saved.
-4. Execute  the following command - python main.py
+4. Execute  the following command - 'python main.py'
 5. Now you are able tos see the main menu of the application. 
